@@ -1,4 +1,9 @@
 document.getElementById('contactForm').addEventListener('submit', function(event) {
+    function toggleMenu() {
+        var menu = document.getElementById("nav-menu");
+        menu.classList.toggle("active");
+    }
+    
     event.preventDefault();
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
