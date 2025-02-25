@@ -59,6 +59,11 @@ nav ul li a:hover {
   color: #FFD700;
 }
 
+a {
+  text-decoration: none; 
+  color: black; 
+}
+
 
 h2{
   color:#FFD700;
