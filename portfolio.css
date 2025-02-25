@@ -197,18 +197,9 @@ footer {
   100% { width: 0; }
 }
 
-.menu-toggle {
-  display: none;
-  font-size: 24px;
-  cursor: pointer;
-  color: white;
-}
+
 
 @media (max-width: 768px) {
-  .menu-toggle {
-      display: block;
-      text-align: right;
-  }
 
   nav ul {
       display: none;
