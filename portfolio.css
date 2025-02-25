@@ -36,23 +36,29 @@ header {
 .profile-pic:hover {
   transform: scale(1.1);
 }
+nav{
+  background: #222;
+  padding:15px;
+}
 
 nav ul {
-  list-style-type: none;
-  padding: 0;
+  list-style: none;
   display: flex;
-  gap: 22px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li {
-  display: inline;
+  margin: 0 10px;
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-size: 1.21em;
-  transition: color 0.3s;
+  font-size: 18px;
+  padding: 10px;
 }
 
 nav ul li a:hover {
@@ -199,28 +205,28 @@ footer {
 }
 
 @media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: center;
+  .menu-toggle {
+      display: block;
+      text-align: right;
   }
 
   nav ul {
-    display: none;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    background-color: #222;
-    padding: 10px 0;
+      display: none;
+      flex-direction: column;
+      background: #222;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      padding: 20px 0;
+      text-align: center;
   }
 
   nav ul.active {
-    display: flex;
+      display: flex;
   }
 
-  .menu-toggle {
-    display: block;
+  nav ul li {
+      margin: 15px 0;
   }
 }
