@@ -1,17 +1,20 @@
+// Function to toggle the navigation menu (kept separate)
+function toggleMenu() {
+    var menu = document.getElementById("nav-menu");
+    menu.classList.toggle("active");
+}
+
+// Event listener for form submission
 document.getElementById('contactForm').addEventListener('submit', function(event) {
-    function toggleMenu() {
-        var menu = document.getElementById("nav-menu");
-        menu.classList.toggle("active");
-    }
+    event.preventDefault();  // Prevent default form submission behavior
     
-    event.preventDefault();
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
 
     if (name && email && message) {
         alert(`Thank you, ${name}! Your message has been sent.`);
-        document.getElementById('contactForm').reset();
+        document.getElementById('contactForm').reset(); // Reset form fields
     } else {
         alert('Please fill in all fields.');
     }
