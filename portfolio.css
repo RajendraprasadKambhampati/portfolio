@@ -66,8 +66,8 @@ nav ul li a:hover {
 }
 
 a {
-  text-decoration: none; /* Removes the underline */
-  color: black; /* Changes the link color */
+  text-decoration: none; 
+  color: black; 
 }
 
 
