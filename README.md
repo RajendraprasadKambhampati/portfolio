@@ -5,7 +5,7 @@ Welcome to my personal portfolio! This website showcases my skills, projects, ed
 ![Portfolio Screenshot](Screenshot%202025-02-04%20153515.png)
 
 ## 📌 Live Demo
-Check out the live version of my portfolio here: **[Portfolio Link](#)** (Replace with actual link)
+Check out the live version of my portfolio here: **[https://rajendraprasadkambhampati.github.io/portfolio/](#)** 
 
 ---
 
@@ -68,9 +68,7 @@ To run this project locally, follow these steps:
 ---
 
 ## 📬 Contact Me
-Feel free to reach out to me through my portfolio or via **[https://www.linkedin.com/in/rajendra-prasad-kambhampati-79a433256/?originalSubdomain=in](#)**.
-
-📧 **Email:** your.email@example.com   
+.📧 **Email:** kambhampatirajendraprasda61@gmail.com   
 💼 **GitHub:** [https://github.com/RajendraprasadKambhampati](#)  
 
 ---
