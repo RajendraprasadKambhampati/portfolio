@@ -5,7 +5,7 @@ Welcome to my personal portfolio! This website showcases my skills, projects, ed
 ![Portfolio Screenshot](Screenshot%202025-02-04%20153515.png)
 
 ## 📌 Live Demo
-Check out the live version of my portfolio here: *https://rajendraprasadkambhampati.github.io/portfolio/(#)** 
+Check out the live version of my portfolio here: *https://rajendraprasadkambhampati.github.io/portfolio/** 
 
 ---
 
